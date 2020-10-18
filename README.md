@@ -74,3 +74,4 @@ data:text/html,<body><script>d=document;for(i=0;i<50;i++)d.body.innerHTML+='<div
 The code is distributed under MIT license. PRs are always welcome, especially if they fix something or make the code smaller, or add features that are valuable, but do not require a lot of code.
 
 To modify something - edit HTML files directly. There is README.sh script that re-generates the README and embeds apps code into it.
+You can run `cp pre-commit .git/hooks/`, then `README.md` will be generated automatically before you commit
