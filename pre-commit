@@ -1,0 +1,6 @@
+#!/bin/bash
+git stash push --keep-index
+./README.sh > README.md
+git add README.md
+git stash pop
+
